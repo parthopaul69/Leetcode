@@ -4,8 +4,7 @@ class Solution {
         {
             for(int j=i+1;j<numbers.length;j++)
             {
-                int sum=numbers[i]+numbers[j];
-                if(sum==target)
+                if(numbers[i]+numbers[j]==target)
                 {
                     return new int[]{i+1,j+1};
                 }
